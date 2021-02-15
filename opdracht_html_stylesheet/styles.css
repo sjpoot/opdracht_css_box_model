@@ -1,0 +1,61 @@
+*h1 .header-text{
+    padding: 0px;
+}
+
+body{
+    background-color:lightgrey
+}
+
+.black-border{
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.header-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+}
+
+.footer-style{
+    border: 2px solid lightseagreen;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color:darkgoldenrod;
+    border: 2px dotted darkslategray;
+    padding: 30px 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.nav-style .li-style{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px;
+    display: inline;
+    ;
+}
+
+.nav-style a:hover{
+    background-color: lightsteelblue;
+    
+}
+
+.article-style{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+    color: darkslategray;
+    line-height: 2em;
+    padding-left: 20px;
+}
